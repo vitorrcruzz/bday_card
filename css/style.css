@@ -243,3 +243,13 @@ body {
   .name {
     margin-left:150px;
   }
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .texto-grande {
+      font-size: 2rem;
+    }
+  }
